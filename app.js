@@ -15,6 +15,13 @@ client.on('message', function(message) {
 })
 
 client.on('message', function(message) {
-    if (message.author.bot) return;
-    message.reply('Hey! How u doin!')
-})
+
+    if (msg.author.bot || !msg.content.startsWith(prefix)) return;
+
+    args = msg.content.slice(prefix.length).trim().split(/ +/);
+    command = arg.shift().toLowerCase();
+
+    console.log(args, command);
+    // if (message.author.bot) return;
+    // message.reply(`Hey! How u doin!, ${msg.author.username}`)
+});
