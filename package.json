@@ -1,0 +1,24 @@
+{
+  "name": "discordbots",
+  "version": "1.0.0",
+  "description": "This is a discord bot that will help to track issues on github repo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spnetic-5/github_issue_tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spnetic-5/github_issue_tracker/issues"
+  },
+  "homepage": "https://github.com/Spnetic-5/github_issue_tracker#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
